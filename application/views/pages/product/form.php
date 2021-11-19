@@ -24,12 +24,6 @@
                             <?= form_error('price') ?>
                         </div>
                         <div class="form-group">
-                            <label for="">Kategori</label>
-                            <!-- Param 2 getDropdownList, arr[0] adalah 'value' & arr[1] adalah 'nama option' -->
-                            <?= form_dropdown('id_category', getDropdownList('category', ['id', 'title']), $input->id_category, ['class' => 'form-control']) ?>
-                            <?= form_error('id_category') ?>
-                        </div>
-                        <div class="form-group">
                             <label for="">Ada Stok?</label>
                             <br>
                             <div class="form-check form-check-inline">
